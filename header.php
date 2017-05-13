@@ -34,7 +34,7 @@
    
     <!-- Theme CSS -->
      <!--<?php importStyle("css/Welcome.css"); ?>  -->
-     <link rel="icon" type="image/png" href="img/favicon.png">
+     <link rel="icon" type="image/png" href="img/favicon1.png">
      <link href="css/agency.css" rel="stylesheet">
 
     
