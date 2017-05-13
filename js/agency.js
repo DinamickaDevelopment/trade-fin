@@ -31,13 +31,7 @@
     })
 
 })(jQuery); // End of use strict
-    jQuery(document).ready(function(){
-  jQuery('#page-top').fullpage({
-                    anchors: ['video', 'how_we_do_form', 'contact_form']
-                });
-});
                 
-
 
 $(document).ready(function () {
     $("a").click(function () {
