@@ -24,7 +24,7 @@
    <!--  <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet"> -->
 
     <!-- Custom Fonts -->
-    <?php importStyle("vendor/font-awesome/css/font-awesome.css"); ?>
+    <!--<?php importStyle("vendor/font-awesome/css/font-awesome.css"); ?> -->
     <!-- <link href="vendor/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css"> -->
 
     <!--<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -33,7 +33,8 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>-->
    
     <!-- Theme CSS -->
-     <?php importStyle("css/Welcome.css"); ?> 
+     <!--<?php importStyle("css/Welcome.css"); ?>  -->
+     <link rel="icon" type="image/png" href="img/favicon.png">
      <link href="css/agency.css" rel="stylesheet">
 
     
