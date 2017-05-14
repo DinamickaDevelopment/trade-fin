@@ -1545,3 +1545,6 @@ body {
   #mainNav #bs-example-navbar-collapse-1 ul li a {
     margin: 0 17px !important; } }
 
+@media (min-width: 768px) {
+  .intro-text .btn-xl {
+    padding: 24px 30px;	} }
