@@ -73,11 +73,12 @@ h1, h2, h3, h4, h5, h6 {
     @include button-variant(white, $theme-danger, $theme-danger);
     @include heading-font;
     font-weight: 700;
-    font-size:30px;
-    padding: 24px 112px;
+    font-size: 30px;
     border-radius: 0;
-    line-height: 1;
-    width:300px;
+    line-height: 80px;
+    width: 300px;
+    height: 80px;
+    padding: 0;
 }
 
 // Custom Navigation Bar
@@ -88,13 +89,15 @@ h1, h2, h3, h4, h5, h6 {
    
     .navbar-brand {
         color: $theme-primary;
-        width: 250px;
-        height: 60px;
         overflow: hidden;
         padding-top: 0;
         padding-bottom: 0;
         margin: 15px 0;
-     
+        display: inline-block;
+        width: 237px; 
+        height: 58px;
+        background-repeat: no-repeat;
+        background-position: 0px 0px;
         @include script-font;
         &:hover,
         &:focus,
@@ -147,13 +150,12 @@ h1, h2, h3, h4, h5, h6 {
         background-color: darken($theme-primary, 10%);
     }
 }
-
 @media(min-width:768px) {
     .navbar-custom {
         background-color: transparent;
          padding:36px 95px 0 95px;
         -webkit-transition: padding 0.3s;
-        -moz-transition: padding 0.3s;
+        -moz-transition: padding 0.3s; 
         transition: padding 0.3s;
         border: none;
         .navbar-brand {
@@ -164,7 +166,7 @@ h1, h2, h3, h4, h5, h6 {
         }
         .navbar-nav>li>a{
             padding: 35px 0 15px 0;
-            margin: 0 25px;
+            margin: 0 20px;
             
         }
         .navbar-nav>.active>a {
@@ -172,15 +174,34 @@ h1, h2, h3, h4, h5, h6 {
         }
     }
 }
-
+@media(min-width:992px) and (max-width:1141px) {
+    .navbar-custom {
+         padding:36px 55px 0 55px;
+    } 
+}
+@media(min-width:768px) and (max-width:991px) {
+    .navbar-custom {
+        padding-left: 15px;
+        padding-right: 15px;  
+      .navbar-brand {
+            background-size: 390px;
+            width: 168px;
+            height: 42px;
+            font-size: 2em;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+    }
+}
 // Navbar Change on Scroll
 
 @media(min-width:768px) {
     .navbar-custom.affix {
         background-color: $gray-darker;
-        padding: 10px 0;
+        padding: 10px;
         .navbar-brand {
-            font-size: 1.5em;
+            font-size: 1.5em; 
         }
     }
 }
@@ -314,8 +335,7 @@ section {
         margin-top:70px;
         background: $theme-black;
         border-color: $theme-black !important;
-        line-height:1;
-        padding: 24px 34px;
+        line-height:80px;
     }
     
 }
@@ -1418,7 +1438,7 @@ body {
 	.btn-xl{margin-top: 20px;}
 	.fullwidth-header{height: 400px;max-height: 100%;}
 	.b-popup-content a{left:87%;}
-	.btn-xl{font-size: 20px;padding: 10px 30px;}
+	.btn-xl{font-size: 20px;}
 	.intro-text{margin-top: 150px;}
 	.intro-lead-in{line-height: 40px !important;font-size: 35px;}
 	#video .text-video{font-size: 20px;line-height: 40px !important;}
@@ -1463,7 +1483,7 @@ body {
 	.navbar-brand img{width: 150px; margin-top: 10px !important;}
 	.navbar-custom .nav li a{line-height: 2;}
 	.form_welcome{margin-top: 20px;}
-	.navbar-custom .navbar-brand{height: 70px;}
+	.navbar-custom .navbar-brand{height: 70px;    background-size: 390px;width: 168px;height: 42px;}
 	
 	.navbar-brand img{margin-top: 0 !important;}
 	.b-popup-content video{width:100%;}
@@ -1477,6 +1497,10 @@ body {
 @media(max-width: 550px){
 	.b-popup-content a{left:95%;}
 	.form_welcome{margin-top: 30px;}
+    .btn-xl{width: 260px;    height: 55px;
+    line-height: 55px;
+        line-height: 55px!important;
+    padding: 0px!important;}
 }
 
 #scrollup {
@@ -1510,7 +1534,7 @@ cursor: pointer;
 
 @media(min-width: 1142px) and (max-width:1297px){
 	.navbar-brand img{width: 150px; margin-top: 5px;}
-	.navbar-custom .nav li a{font-size: 20px;}
+	.navbar-custom .nav li a{font-size: 18px;}
 }
 
 @media(max-width: 1141px){
@@ -1532,7 +1556,6 @@ cursor: pointer;
 	.btn-xl{font-size: 25px;}
 	#video{padding:90px 0 100px;}
 	.navbar-custom{padding-left: 0;padding-right: 0;}
-	.btn-xl{padding:24px 100px;}
 	.form_subtitle{font-size: 30px;}
 	.b-popup-content a{left:87%;}
 	.b-popup-content{left:10%;}

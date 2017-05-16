@@ -25,6 +25,6 @@
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
     
-<div id="scrollup"><img alt="Прокрутить вверх" src="<?php importImageURL("img/up.png");?>" width="20px"></div>
+<div id="scrollup"><div alt="Прокрутить вверх" style="display:block; width: 15px;height: 15px; background: url(./img/sprite.png) no-repeat -289px -22px;" ></div></div>
 </body>
 </html>

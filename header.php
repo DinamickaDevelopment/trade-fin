@@ -49,9 +49,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top" style="display: inline-block; width: 237px; height: 58px; background: url(./img/sprite.png) no-repeat 0px 0px;"">
-                   <!-- <img src="<?php importImageURL("img/sprite.png");?>" /> -->
-                </a>
+                <a class="navbar-brand page-scroll" href="#page-top" style="background-image: url(./img/sprite.png)"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
