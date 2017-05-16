@@ -59,7 +59,7 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a href="welcome-page.php">Welcome</a>
+                        <a href="welcome-page.php">Welcome.</a>
                     </li>
                     <li>
                         <a href="#">Register as an investor</a>
