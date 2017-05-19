@@ -1,6 +1,6 @@
 <?php
-	$from_email = 'webmaster@example.com';
-	$to_email = 'wooohooog58@gmail.com';
+	$from_email = 'sales@tradefin.com';
+	$to_email = 'sales@tradefin.com';
 
 function process_form(){
 	$first_name = $_POST['first_name'];
