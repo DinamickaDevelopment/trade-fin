@@ -34,7 +34,7 @@
                 
 
 $(document).ready(function () {
-    $("a").click(function () {
+    $(".text-video a").click(function () {
         var elementClick = $(this).attr("href");
         var destination = $(elementClick).offset().top;
         if ($.browser.safari) {
