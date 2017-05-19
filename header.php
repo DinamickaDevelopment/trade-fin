@@ -21,23 +21,17 @@
 
     <!-- Bootstrap Core CSS -->
     <?php importStyle("vendor/bootstrap/css/bootstrap.css"); ?>
-   <!--  <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet"> -->
+ 
 
     <!-- Custom Fonts -->
     <!--<?php importStyle("vendor/font-awesome/css/font-awesome.css"); ?> -->
     <!-- <link href="vendor/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css"> -->
 
-    <!--<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>-->
-   
-    <!-- Theme CSS -->
-     <!--<?php importStyle("css/Welcome.css"); ?>  -->
+     
+     <!-- Theme CSS -->
      <link rel="icon" type="image/png" href="img/favicon.png">
-     <link href="css/agency.css" rel="stylesheet">
+     <link href="css/bundle.css" rel="stylesheet">
 
-    
 </head>
 <body id="page-top" class="index">
 
