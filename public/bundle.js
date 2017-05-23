@@ -98,11 +98,11 @@ var jQuery = __webpack_require__(2);
     });
 
     // Offset for Main Navigation
-    $('#mainNav').affix({
-        offset: {
-            top: 100
-        }
-    });
+    //$('#mainNav').affix({
+    //    offset: {
+    //        top: 100
+    //    }
+    //})
 })(jQuery); // End of use strict      
 
 $(document).ready(function () {
