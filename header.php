@@ -21,7 +21,7 @@
 	   
      <!-- Theme CSS -->
      <link rel="icon" type="image/png" href="img/favicon.png">
-     <link href="css/bundle.css" rel="stylesheet">
+     <link href="public/bundle.css" rel="stylesheet">
 
 </head>
 <body id="page-top" class="index">
