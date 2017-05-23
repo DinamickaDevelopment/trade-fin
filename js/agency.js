@@ -31,7 +31,6 @@ require('jquery.easing')(jQuery);
             top: 100
         }
     })
-
 })(jQuery); // End of use strict               
 $(document).ready(function () {
     $(".text-video a").click(function () {
