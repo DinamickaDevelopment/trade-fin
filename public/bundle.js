@@ -108,14 +108,15 @@ var $ = __webpack_require__(2);
 $(document).ready(function () {
 
     // Show PopUp
-    function PopUpShow() {
-        $("#popup1").show();
-        $("#video_play")[0].play();
-    }
+    //function PopUpShow() {
+    //    $("#popup1").show();
+    //    $("#video_play")[0].play();
+    //}
 
     $(".text-video a").click(function () {
 
-        PopUpShow();
+        $("#popup1").show();
+        $("#video_play")[0].play();
         //var elementClick = $(this).attr("href");
         //var destination = $(elementClick).offset().top;
         //if ($.browser.safari) {
