@@ -86,7 +86,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <p class="text-video">TradeFin is a supply chain finance marketplace where Suppliers get paid early, corporations improve their sales and profitability and financiers make attractive returns with low risk</p>
-                    <a href="javascript:PopUpShow()" class="btn btn-xl">watch the video</a>
+                    <a class="btn btn-xl">watch the video</a>
                 </div>
             </div>
         </div>
