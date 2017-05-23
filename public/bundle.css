@@ -331,7 +331,7 @@ th {
 @font-face {
   font-family: 'Glyphicons Halflings';
   src: url(/fonts/glyphicons-halflings-regular.eot);
-  src: url(/fonts/glyphicons-halflings-regular.eot?#iefix) format("embedded-opentype"), url(/fonts/glyphicons-halflings-regular.woff2) format("woff2"), url(/fonts/glyphicons-halflings-regular.woff) format("woff"), url(/fonts/glyphicons-halflings-regular.ttf) format("truetype"), url(/./../glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format("svg");
+  src: url(/fonts/glyphicons-halflings-regular.eot?#iefix) format("embedded-opentype"), url(/fonts/glyphicons-halflings-regular.woff2) format("woff2"), url(/fonts/glyphicons-halflings-regular.woff) format("woff"), url(/fonts/glyphicons-halflings-regular.ttf) format("truetype"), url(/img/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format("svg");
 }
 
 .glyphicon {
@@ -8721,7 +8721,7 @@ fieldset[disabled] .btn-xl.focus {
 }
 
 header {
-  background-image: url(/./../homePage_bg.jpg);
+  background-image: url(/img/homePage_bg.jpg);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -8835,7 +8835,7 @@ section h3.section-subheading {
   display: inline-block;
   width: 50px;
   height: 50px;
-  background: url(/./../sprite.png) no-repeat -237px 0px;
+  background: url(/img/sprite.png) no-repeat -237px 0px;
   top: -10px;
   margin-left: -25px;
   z-index: 140;
@@ -9500,7 +9500,7 @@ body {
 }
 
 #benefits_welcome {
-  background: url(/./../bg_benefits.png) no-repeat;
+  background: url(/img/bg_benefits.png) no-repeat;
   padding-top: 30px;
   padding-bottom: 0px;
   height: 1070px;
@@ -9925,7 +9925,7 @@ body {
 }
 
 #benefits-section {
-  background: url(/./../bg_benefits.png) no-repeat;
+  background: url(/img/bg_benefits.png) no-repeat;
   padding-top: 60px;
 }
 
