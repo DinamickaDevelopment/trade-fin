@@ -106,6 +106,13 @@ var $ = __webpack_require__(2);
 })($); // End of use strict      
 
 $(document).ready(function () {
+
+    // Show PopUp
+    function PopUpShow() {
+        $("#popup1").show();
+        $("#video_play")[0].play();
+    }
+
     $(".text-video a").click(function () {
 
         PopUpShow();
@@ -118,12 +125,6 @@ $(document).ready(function () {
         //}
         //return false;
     });
-
-    // Show PopUp
-    function PopUpShow() {
-        $("#popup1").show();
-        $("#video_play")[0].play();
-    }
 
     //Hide PopUp, when you run a page
     PopUpHide();
