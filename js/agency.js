@@ -1,5 +1,5 @@
 // JavaScript
-require('jquery');
+var jQuery = require('jquery');
 require('jquery.easing')(jQuery);
 
 (function($) {
