@@ -1,6 +1,6 @@
 // JavaScript
 var jQuery = require('jquery');
-//require('jquery.easing')(jQuery);
+require('jquery.easing');
 
 (function($) {
     "use strict"; // Start of use strict
