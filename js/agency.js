@@ -41,7 +41,7 @@ $(document).ready(function () {
     //    $("#video_play")[0].play();
     //}
 
-    $(".text-video a").click(function () {
+    $(".text-video__button").click(function () {
 
         $("#popup1").show();
         $("#video_play")[0].play();
