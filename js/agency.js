@@ -1,6 +1,6 @@
 // JavaScript
 var jQuery = require('jquery');
-require('jquery.easing');
+
 
 (function($) {
     "use strict"; // Start of use strict
@@ -31,7 +31,8 @@ require('jquery.easing');
             top: 100
         }
     })
-})(jQuery); // End of use strict               
+})(jQuery); // End of use strict      
+
 $(document).ready(function () {
     $(".text-video a").click(function () {
         var elementClick = $(this).attr("href");
