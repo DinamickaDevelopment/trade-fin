@@ -36,14 +36,15 @@ var $ = require('jquery');
 $(document).ready(function () {
 
     // Show PopUp
-    function PopUpShow() {
-        $("#popup1").show();
-        $("#video_play")[0].play();
-    }
+    //function PopUpShow() {
+    //    $("#popup1").show();
+    //    $("#video_play")[0].play();
+    //}
 
     $(".text-video a").click(function () {
 
-        PopUpShow();
+        $("#popup1").show();
+        $("#video_play")[0].play();
         //var elementClick = $(this).attr("href");
         //var destination = $(elementClick).offset().top;
         //if ($.browser.safari) {
@@ -54,9 +55,6 @@ $(document).ready(function () {
         //return false;
 
     });
-
-  
-
 
      //Hide PopUp, when you run a page
     PopUpHide();
