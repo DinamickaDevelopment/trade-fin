@@ -26,7 +26,7 @@
 </div>
 
 <!-- Plugin Bundle -->
-<script src="bundle.min.js" ></script>
+<script src="js/bundle.min.js" ></script>
 
 </body>
 </html>
