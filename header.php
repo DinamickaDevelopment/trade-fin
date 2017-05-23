@@ -86,7 +86,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <p class="text-video">TradeFin is a supply chain finance marketplace where Suppliers get paid early, corporations improve their sales and profitability and financiers make attractive returns with low risk</p>
-                    <a class="btn btn-xl text-video__button">watch the video</a>
+                    <a class="btn btn-xl text-video__buttonOpen">watch the video</a>
                 </div>
             </div>
         </div>
@@ -99,7 +99,7 @@
             <source src="video/TradeFin_Explainer_Rupee_Ver_FULLRES.mp4" type='video/mp4'>
             <!-- <source src="video/TradeFin_Explainer_Rupee_Ver_FULLRES.mov"> -->
         </video>
-        <a href="#" onClick="PopUpHide()"> &times;</a>
+        <a href="#" class="text-video__buttonClose"> &times;</a>
     </div>
 </div>
 

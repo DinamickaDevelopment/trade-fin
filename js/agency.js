@@ -35,16 +35,10 @@ var $ = require('jquery');
 
 $(document).ready(function () {
 
-    // Show PopUp
-    //function PopUpShow() {
-    //    $("#popup1").show();
-    //    $("#video_play")[0].play();
-    //}
-
-    $(".text-video__button").click(function () {
-
+    $(".text-video__buttonOpen").click(function () {
         $("#popup1").show();
         $("#video_play")[0].play();
+
         //var elementClick = $(this).attr("href");
         //var destination = $(elementClick).offset().top;
         //if ($.browser.safari) {
@@ -53,17 +47,14 @@ $(document).ready(function () {
         //    $('html').animate({ scrollTop: destination }, 1100);
         //}
         //return false;
-
     });
 
-     //Hide PopUp, when you run a page
-    PopUpHide();
-    
-    // Hide PopUp
-    function PopUpHide() {
+    //Hide PopUp, when you run a page
+    $(".text-video__buttonClose").click(function () {
         $("#video_play")[0].pause();
         $("#popup1").hide();
-    }
+
+    });
 });
 
 window.onload = function() { // when page was uploaded
