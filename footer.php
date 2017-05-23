@@ -17,14 +17,16 @@
 		<div class="footer-copyright col-md-12">Copyright @ 2017. Tradefin</div>
 	</div>
 </section>
-<!-- jQuery -->
-	<?php importScript("vendor/jquery/jquery.min.js");?>
-	<?php importScript("vendor/bootstrap/js/bootstrap.min.js");?>
-	<?php importScript("js/agency.js");?>
 
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
-    
-<div id="scrollup"><div alt="Прокрутить вверх" style="display:block; width: 15px;height: 15px; background: url(./img/sprite.png) no-repeat -289px -22px;" ></div></div>
+
+<div id="scrollup">
+  <div alt="Scroll up" style="display:block; width: 15px;height: 15px; background: url(./img/sprite.png) no-repeat -289px -22px;" >
+</div>
+
+</div>
+
+<!-- Plugin Bundle -->
+<script src="bundle.js" ></script>
+
 </body>
 </html>

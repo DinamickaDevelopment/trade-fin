@@ -1,4 +1,6 @@
-// Agency Theme JavaScript
+// JavaScript
+require('jquery');
+require('jquery.easing')(jQuery);
 
 (function($) {
     "use strict"; // Start of use strict
@@ -30,42 +32,54 @@
         }
     })
 
-})(jQuery); // End of use strict
-                
-
+})(jQuery); // End of use strict               
 $(document).ready(function () {
     $(".text-video a").click(function () {
         var elementClick = $(this).attr("href");
         var destination = $(elementClick).offset().top;
         if ($.browser.safari) {
-            $('body').animate({ scrollTop: destination }, 100); //1100 - скорость
+            $('body').animate({ scrollTop: destination }, 100); //1100 - speed
         } else {
             $('html').animate({ scrollTop: destination }, 1100);
         }
         return false; 
     });
+
+     //Hide PopUp, when you run a page
+    PopUpHide();
+    // Show PopUp
+    function PopUpShow() {
+        $("#popup1").show();
+        $("#video_play")[0].play();
+    }
+    // Hide PopUp
+    function PopUpHide() {
+        $("#video_play")[0].pause();
+        $("#popup1").hide();
+    }
 });
-window.onload = function() { // после загрузки страницы
+
+window.onload = function() { // when page was uploaded
 
     var scrollUp = document.getElementById('scrollup'); // найти элемент
 
-    scrollUp.onmouseover = function() { // добавить прозрачность
+    scrollUp.onmouseover = function() { // add opacity 
         scrollUp.style.opacity=0.3;
         scrollUp.style.filter  = 'alpha(opacity=30)';
     };
 
-    scrollUp.onmouseout = function() { //убрать прозрачность
+    scrollUp.onmouseout = function() { //remove opacity 
         scrollUp.style.opacity = 0.5;
         scrollUp.style.filter  = 'alpha(opacity=50)';
     };
 
-    scrollUp.onclick = function() { //обработка клика
+    scrollUp.onclick = function() { //hendler
         window.scrollTo(0,0);
     };
 
 // show button
 
-    window.onscroll = function () { // при скролле показывать и прятать блок
+    window.onscroll = function () { // show or hide block
         if ( window.pageYOffset > 0 ) {
             scrollUp.style.display = 'block';
         } else {
@@ -73,3 +87,5 @@ window.onload = function() { // после загрузки страницы
         }
     };
 };
+
+

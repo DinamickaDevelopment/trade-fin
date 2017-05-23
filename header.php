@@ -18,16 +18,7 @@
     <meta name="author" content="">
 
     <title>TradeFin</title>
-
-    <!-- Bootstrap Core CSS -->
-    <?php importStyle("vendor/bootstrap/css/bootstrap.css"); ?>
- 
-
-    <!-- Custom Fonts -->
-    <!--<?php importStyle("vendor/font-awesome/css/font-awesome.css"); ?> -->
-    <!-- <link href="vendor/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css"> -->
-
-     
+	   
      <!-- Theme CSS -->
      <link rel="icon" type="image/png" href="img/favicon.png">
      <link href="css/bundle.css" rel="stylesheet">
@@ -113,23 +104,5 @@
 </div>
 
 
-<script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
-<script>
-    $(document).ready(function(){
-        //Скрыть PopUp при загрузке страницы    
-        PopUpHide();
-    });
-    //Функция отображения PopUp
-    function PopUpShow(){
-        $("#popup1").show();
-        $("#video_play")[0].play();
-    }
-    //Функция скрытия PopUp
-    function PopUpHide(){
-        $("#video_play")[0].pause();
-        $("#popup1").hide();
-
-    }
-</script>
 
  
