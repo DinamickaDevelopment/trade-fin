@@ -1,5 +1,5 @@
 // JavaScript
-var jQuery = require('jquery');
+var $ = require('jquery');
 
 
 (function($) {
@@ -31,7 +31,7 @@ var jQuery = require('jquery');
     //        top: 100
     //    }
     //})
-})(jQuery); // End of use strict      
+})($); // End of use strict      
 
 $(document).ready(function () {
     $(".text-video a").click(function () {

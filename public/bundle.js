@@ -71,7 +71,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 // JavaScript
-var jQuery = __webpack_require__(2);
+var $ = __webpack_require__(2);
 
 (function ($) {
     "use strict"; // Start of use strict
@@ -103,7 +103,7 @@ var jQuery = __webpack_require__(2);
     //        top: 100
     //    }
     //})
-})(jQuery); // End of use strict      
+})($); // End of use strict      
 
 $(document).ready(function () {
     $(".text-video a").click(function () {
