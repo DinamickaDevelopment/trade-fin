@@ -77,14 +77,13 @@ var $ = __webpack_require__(2);
     "use strict"; // Start of use strict
 
     // jQuery for page scrolling feature - requires jQuery Easing plugin
-
-    $('a.page-scroll').bind('click', function (event) {
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top - 50
-        }, 1250, 'easeInOutExpo');
-        event.preventDefault();
-    });
+    //$('a.page-scroll').bind('click', function(event) {
+    //    var $anchor = $(this);
+    //    $('html, body').stop().animate({
+    //        scrollTop: ($($anchor.attr('href')).offset().top - 50)
+    //    }, 1250, 'easeInOutExpo');
+    //    event.preventDefault();
+    //});
 
     // Highlight the top nav as scrolling occurs
     //$('body').scrollspy({
@@ -93,6 +92,7 @@ var $ = __webpack_require__(2);
     //});
 
     // Closes the Responsive Menu on Menu Item Click
+
     $('.navbar-collapse ul li a').click(function () {
         $('.navbar-toggle:visible').click();
     });
@@ -107,23 +107,27 @@ var $ = __webpack_require__(2);
 
 $(document).ready(function () {
     $(".text-video a").click(function () {
-        var elementClick = $(this).attr("href");
-        var destination = $(elementClick).offset().top;
-        if ($.browser.safari) {
-            $('body').animate({ scrollTop: destination }, 100); //1100 - speed
-        } else {
-            $('html').animate({ scrollTop: destination }, 1100);
-        }
-        return false;
+
+        PopUpShow();
+        //var elementClick = $(this).attr("href");
+        //var destination = $(elementClick).offset().top;
+        //if ($.browser.safari) {
+        //    $('body').animate({ scrollTop: destination }, 100); //1100 - speed
+        //} else {
+        //    $('html').animate({ scrollTop: destination }, 1100);
+        //}
+        //return false;
     });
 
-    //Hide PopUp, when you run a page
-    PopUpHide();
     // Show PopUp
     function PopUpShow() {
         $("#popup1").show();
         $("#video_play")[0].play();
     }
+
+    //Hide PopUp, when you run a page
+    PopUpHide();
+
     // Hide PopUp
     function PopUpHide() {
         $("#video_play")[0].pause();
