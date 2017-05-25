@@ -1,6 +1,6 @@
 // JavaScript
-var $ = require('jquery');
-window.$ = $;
+var jQuery = require('jquery');
+window.$ = jQuery;
 require('bootstrap');
 
 (function($) {
