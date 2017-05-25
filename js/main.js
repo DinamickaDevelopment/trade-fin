@@ -57,11 +57,11 @@ $(document).ready(function () {
     //});
 
     //Hide PopUp, when you run a page
-    $(".text-video__buttonClose").click(function () {
-        $("#video_play")[0].pause();
-        $("#popup1").hide();
+    //$(".text-video__buttonClose").click(function () {
+    //    $("#video_play")[0].pause();
+    //    $("#popup1").hide();
 
-    });
+    //});
 });
 
 window.onload = function() { // when page was uploaded
