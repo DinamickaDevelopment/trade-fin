@@ -35,9 +35,16 @@ var $ = require('jquery');
 
 $(document).ready(function () {
 
-    $(".text-video__buttonOpen").click(function () {
-        $("#popup1").show();
-        $("#video_play")[0].play();
+
+    $('.launch-modal').on('click', function (e) {
+        e.preventDefault();
+        $('#' + $(this).data('modal-id')).modal();
+    });
+
+
+    //$(".text-video__buttonOpen").click(function () {
+    //    $("#popup1").show();
+    //    $("#video_play")[0].play();
 
         //var elementClick = $(this).attr("href");
         //var destination = $(elementClick).offset().top;
@@ -47,7 +54,7 @@ $(document).ready(function () {
         //    $('html').animate({ scrollTop: destination }, 1100);
         //}
         //return false;
-    });
+    //});
 
     //Hide PopUp, when you run a page
     $(".text-video__buttonClose").click(function () {

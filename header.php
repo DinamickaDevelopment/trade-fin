@@ -21,7 +21,7 @@
 	   
      <!-- Theme CSS -->
      <link rel="icon" type="image/png" href="img/favicon.png">
-     <link href="public/bundle.css" rel="stylesheet">
+     <link href="public/bundle.min.css" rel="stylesheet">
 
 </head>
 <body id="page-top" class="index">
@@ -78,6 +78,8 @@
             </div>
         </div>
     </header>
+
+
      <section id="video" class="text-center">
          <div class="imgRounded"></div>
          <div class="imgRounded_img"></div>
@@ -86,12 +88,41 @@
             <div class="row">
                 <div class="col-md-12">
                     <p class="text-video">TradeFin is a supply chain finance marketplace where Suppliers get paid early, corporations improve their sales and profitability and financiers make attractive returns with low risk</p>
-                    <a class="btn btn-xl text-video__buttonOpen">watch the video</a>
+                    <a class="btn btn-xl text-video__buttonOpen"  data-modal-id="modal-video">watch the video</a>
                 </div>
             </div>
         </div>
     </section>
-     
+    
+	
+
+	 <!-- MODAL -->
+        <div class="modal fade" id="modal-video" tabindex="-1" role="dialog" aria-labelledby="modal-video-label">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-video">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <video id="video_play" width="80%" hight="800px" controls>
+									<source src="video/TradeFin_Explainer_Rupee_Ver_FULLRES.ogv" type='video/ogg'>
+									<source src="video/TradeFin_Explainer_Rupee_Ver_FULLRES.mp4" type='video/mp4'>
+									<!-- <source src="video/TradeFin_Explainer_Rupee_Ver_FULLRES.mov"> -->
+									</video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div
+
+
+	 <!--  
+
 <div class="b-popup" id="popup1">
     <div class="b-popup-content">
         <video id="video_play" width="80%" hight="800px" controls>
@@ -103,6 +134,7 @@
     </div>
 </div>
 
+-->
 
 
  

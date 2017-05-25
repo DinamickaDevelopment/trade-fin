@@ -13,7 +13,7 @@ module.exports = {
         ]
     },
     output: {
-        filename: "./public/[name].js",
+        filename: "./public/[name].min.js",
         publicPath: '/'
     },
     module: {
@@ -37,7 +37,7 @@ module.exports = {
         ]
     },
     plugins: [
-        new ExtractTextPlugin('./public/bundle.css'),
+        new ExtractTextPlugin('./public/bundle.min.css'),
         
         new UglifyJSPlugin({
             compress: { warnings: false },
