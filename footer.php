@@ -19,7 +19,7 @@
 
   <a></a>
   <a id="scrollup" href="#page-top" class="page-scroll"  alt="Scroll up" >
-    <span class="icon" style="background:url(/img/sprite.png) -286px -15px no-repeat"></span>
+    <span class="icon" style="background:url(/img/sprite.png) -289px -22px no-repeat"></span>
   </a>
   
 </section>
