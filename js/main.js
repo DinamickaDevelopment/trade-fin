@@ -40,7 +40,7 @@ $(document).ready(function () {
         video_play.load();
         e.preventDefault();
         $('#' + $(this).data('modal-id')).modal();
-        video_play.play();
+        video_play.play();  
     });
         
     $('#modal-video').on('hidden.bs.modal', function (e) {
