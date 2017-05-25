@@ -153,9 +153,9 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-@media(min-width:768px) {
+@media(min-width:320px) {
     .navbar-brand{
-        margin: 15px 15px 15px 0;
+        margin: 15px !important;
     }
 }
 
@@ -190,7 +190,7 @@ h1, h2, h3, h4, h5, h6 {
         padding-left: 15px;
         padding-right: 15px;  
       .navbar-brand {
-            margin: 15px 15px 15px 0;
+            margin: 15px 15px 15px 0 !important;
             background-size: 390px;
             width: 168px;
             height: 42px;
@@ -202,12 +202,12 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-@media(min-width:992px) and (max-width:1141px) {
+@media(min-width:992px) {
     .navbar-custom {
          padding:36px 55px 0 55px;
     } 
      .navbar-brand{
-         margin: 15px 15px 15px 0;
+         margin: 15px 15px 15px 0 !important;
      }
 }
 
