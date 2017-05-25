@@ -39,7 +39,7 @@ $(document).ready(function () {
         e.preventDefault();
         $('#' + $(this).data('modal-id')).modal();
     });
-
+        
     $('#modal-video').on('hidden.bs.modal', function (e) {
         console.log("close");
     });
