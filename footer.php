@@ -17,7 +17,7 @@
 		<div class="footer-copyright col-md-12">Copyright @ 2017. Tradefin</div>
 	</div>
 
-  <div id="scrollup">
+  <div class="scrollup">
     <a href="#page-top" class="page-scroll"  alt="Scroll up" style="display:block; width: 15px;height: 15px; background: url(./img/sprite.png) no-repeat -289px -22px;" ></a>
   </div>
   
