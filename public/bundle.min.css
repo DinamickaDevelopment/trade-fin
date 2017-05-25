@@ -5966,9 +5966,7 @@ h1, h2, h3, h4, h5, h6 {
   .navbar-custom .navbar-brand {
     color: #348fce;
     overflow: hidden;
-    padding-top: 0;
-    padding-bottom: 0;
-    margin: 15px 0;
+    padding: 0;
     display: inline-block;
     width: 237px;
     height: 58px;
@@ -6010,6 +6008,10 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #2873a7; }
 
 @media (min-width: 768px) {
+  .navbar-brand {
+    margin: 15px 15px 15px 0; } }
+
+@media (min-width: 768px) {
   .navbar-custom {
     background-color: transparent;
     padding: 36px 95px 0 95px;
@@ -6028,15 +6030,12 @@ h1, h2, h3, h4, h5, h6 {
     .navbar-custom .navbar-nav > .active > a {
       border-radius: 3px; } }
 
-@media (min-width: 992px) and (max-width: 1141px) {
-  .navbar-custom {
-    padding: 36px 55px 0 55px; } }
-
 @media (min-width: 768px) and (max-width: 991px) {
   .navbar-custom {
     padding-left: 15px;
     padding-right: 15px; }
     .navbar-custom .navbar-brand {
+      margin: 15px 15px 15px 0;
       background-size: 390px;
       width: 168px;
       height: 42px;
@@ -6044,6 +6043,12 @@ h1, h2, h3, h4, h5, h6 {
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s; } }
+
+@media (min-width: 992px) and (max-width: 1141px) {
+  .navbar-custom {
+    padding: 36px 55px 0 55px; }
+  .navbar-brand {
+    margin: 15px 15px 15px 0; } }
 
 @media (min-width: 768px) {
   .navbar-custom.affix {
