@@ -42,8 +42,8 @@ $(document).ready(function () {
     });
 
     $('#myModal').on('hidden.bs.modal', function (e) {
-        // do something...
-    })
+        console.log("close");
+    });
 
     //$(".text-video__buttonOpen").click(function () {
     //    $("#popup1").show();
