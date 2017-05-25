@@ -7370,7 +7370,7 @@ body {
   .navbar-custom .nav li a {
     font-size: 16px; }
   .navbar-custom .navbar-nav > li > a {
-    margin: 0 15px; }
+    margin: 0 10px; }
   header .intro-text .intro-heading {
     font-size: 40px; }
   header .intro-text .intro-lead-in {
@@ -7418,7 +7418,7 @@ body {
   .navbar-custom .nav li a {
     font-size: 17px !important; }
   .navbar-custom .navbar-nav > li > a {
-    margin: 0 17px !important; }
+    margin: 0 10px !important; }
   .intro-lead-in {
     font-size: 55px !important; }
   .intro-heading {
