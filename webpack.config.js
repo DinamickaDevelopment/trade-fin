@@ -39,14 +39,14 @@ module.exports = {
     plugins: [
         new ExtractTextPlugin('./public/bundle.min.css'),
         
-        new UglifyJSPlugin({
-            compress: { warnings: false },
-            include: /\.min\.js$/
-        }),
-        new OptimizeCssAssetsPlugin({
-            assetNameRegExp: /\.min\.css$/,
-            cssProcessorOptions: { discardComments: { removeAll: true } }
-        })
+        //new UglifyJSPlugin({
+        //    compress: { warnings: false },
+        //    include: /\.min\.js$/
+        //}),
+        //new OptimizeCssAssetsPlugin({
+        //    assetNameRegExp: /\.min\.css$/,
+        //    cssProcessorOptions: { discardComments: { removeAll: true } }
+        //})
     ],
     resolve: {
         extensions: ['.js', '.js', "scss"],
