@@ -74,7 +74,7 @@ $(document).ready(function () {
 
 window.onload = function() { // when page was uploaded
 
-    var scrollUp = document.getElementById('scrollup'); // найти элемент
+    var scrollUp = document.querySelector('.scrollup'); // найти элемент
 
     scrollUp.onmouseover = function() { // add opacity 
         scrollUp.style.opacity=0.3;
