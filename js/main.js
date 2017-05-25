@@ -1,6 +1,7 @@
 // JavaScript
 var $ = require('jquery');
-
+window.$ = $;
+require('bootstrap');
 
 (function($) {
     "use strict"; // Start of use strict
