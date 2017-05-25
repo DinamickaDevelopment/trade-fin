@@ -35,13 +35,12 @@ require('bootstrap');
 
 $(document).ready(function () {
 
-
     $('.launch-modal').on('click', function (e) {
         e.preventDefault();
         $('#' + $(this).data('modal-id')).modal();
     });
 
-    $('#myModal').on('hidden.bs.modal', function (e) {
+    $('#modal-video').on('hidden.bs.modal', function (e) {
         console.log("close");
     });
 
