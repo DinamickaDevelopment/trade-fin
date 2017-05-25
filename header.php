@@ -121,20 +121,7 @@
         </div
 
 
-	 <!--  
 
-<div class="b-popup" id="popup1">
-    <div class="b-popup-content">
-        <video id="video_play" width="80%" hight="800px" controls>
-            <source src="video/TradeFin_Explainer_Rupee_Ver_FULLRES.ogv" type='video/ogg'>
-            <source src="video/TradeFin_Explainer_Rupee_Ver_FULLRES.mp4" type='video/mp4'>
-            <!-- <source src="video/TradeFin_Explainer_Rupee_Ver_FULLRES.mov"> -->
-        </video>
-        <a href="#" class="text-video__buttonClose"> &times;</a>
-    </div>
-</div>
-
--->
 
 
  
