@@ -20,7 +20,7 @@
 
 
 <div id="scrollup">
-  <div alt="Scroll up" style="display:block; width: 15px;height: 15px; background: url(./img/sprite.png) no-repeat -289px -22px;" >
+  <div class="page-scroll"  alt="Scroll up" style="display:block; width: 15px;height: 15px; background: url(./img/sprite.png) no-repeat -289px -22px;" >
 </div>
 
 </div>
