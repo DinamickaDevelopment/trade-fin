@@ -88,14 +88,14 @@
             <div class="row">
                 <div class="col-md-12">
                     <p class="text-video">TradeFin is a supply chain finance marketplace where Suppliers get paid early, corporations improve their sales and profitability and financiers make attractive returns with low risk</p>
-                    <a data-modal-id="modal-video" class="btn btn-xl text-video__buttonOpen launch-modal"> watch the video</a>
+                    <a class="btn btn-xl text-video__buttonOpen launch-modal" data-toggle="modal" data-target=".bs-example-modal-lg"> watch the video</a>
                 </div>
             </div>
         </div>
     </section>
     
         <div class="modal fade bs-example-modal-lg" id="modal-video" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-            <div class="modal-dialog" role="document">
+            <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
