@@ -41,6 +41,9 @@ $(document).ready(function () {
         $('#' + $(this).data('modal-id')).modal();
     });
 
+    $('#myModal').on('hidden.bs.modal', function (e) {
+        // do something...
+    })
 
     //$(".text-video__buttonOpen").click(function () {
     //    $("#popup1").show();
