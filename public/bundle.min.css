@@ -7319,7 +7319,7 @@ body {
     line-height: 55px !important;
     padding: 0px !important; } }
 
-#scrollup {
+.scrollup {
   position: fixed;
   opacity: 0.8;
   padding: 10px;
