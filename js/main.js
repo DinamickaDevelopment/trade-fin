@@ -35,13 +35,15 @@ require('bootstrap');
 
 $(document).ready(function () {
 
+    var video_play = $("#video_play")[0];
     $('.launch-modal').on('click', function (e) {
+        video_play.load();
         e.preventDefault();
         $('#' + $(this).data('modal-id')).modal();
+        video_play.play();
     });
         
     $('#modal-video').on('hidden.bs.modal', function (e) {
-        var video_play = $("#video_play")[0]
         video_play.pause();
         video_play.currentTime = 0;
         video_play.load();
