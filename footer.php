@@ -16,8 +16,11 @@
 		</div>
 		<div class="footer-copyright col-md-12">Copyright @ 2017. Tradefin</div>
 	</div>
-  
-  <a id="scrollup" href="#page-top" class="page-scroll"  alt="Scroll up" style="display:block; width: 15px;height: 15px; background: url(./img/sprite.png) no-repeat -289px -22px;" ></a>
+
+  <a></a>
+  <a id="scrollup" href="#page-top" class="page-scroll"  alt="Scroll up" style="background: url(./img/sprite.png) no-repeat -289px -22px;" >
+    
+  </a>
   
 </section>
 
