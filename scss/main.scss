@@ -1558,18 +1558,18 @@ body {
     padding: 0px!important;}
 }
 
-.scrollup {
-position: fixed; 
-opacity: 0.8; 
-padding:10px; 
-background: #aaa;
-border-radius: 5px; 
--webkit-border-radius: 5px;
--moz-border-radius: 5px;
-right: 10px; 
-bottom: 10px; 
-display: none; 
-cursor: pointer;
+#scrollup {
+    position: fixed;
+    opacity: 0.8;
+    padding: 10px;
+    background: #aaa;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    right: 10px;
+    bottom: 10px;
+    display: none;
+    cursor: pointer;
 }
 
 @media(max-width: 590px){
