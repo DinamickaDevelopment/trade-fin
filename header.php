@@ -106,8 +106,11 @@
                         <div class="modal-video">
                             <div class="embed-responsive embed-responsive-16by9">
                                 <video id="video_play" width="80%" hight="800px" controls>
+
+									<source src="video/TradeFin_Explainer_Rupee_Ver_FULLRES.webm" type='video/webm'>
 									<source src="video/TradeFin_Explainer_Rupee_Ver_FULLRES.ogv" type='video/ogg'>
 									<source src="video/TradeFin_Explainer_Rupee_Ver_FULLRES.mp4" type='video/mp4'>
+
 									<!-- <source src="video/TradeFin_Explainer_Rupee_Ver_FULLRES.mov"> -->
 									</video>
                             </div>
