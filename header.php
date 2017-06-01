@@ -47,13 +47,13 @@
                         <a href="welcome-page.php">Welcome</a>
                     </li>
                     <li>
-                        <a href="#">Register as an investor</a>
+                        <a href=<?php echo $APP_URL.$register_url?>>Register as an investor</a>
                     </li>
                     <li>
-                        <a href="#">Register as a business </a>
+                        <a href=<?php echo $APP_URL.$register_url?>>Register as a business </a>
                     </li>
                     <li>
-                        <a href="#">Login</a>
+                        <a href=<?php echo $APP_URL.$login_url?>>Login</a>
                     </li>
                     <!--<li>
                         <a href="#contact">Contact</a>

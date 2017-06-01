@@ -40,7 +40,7 @@ if(isset($_POST['action'])){
 	
 	<div class="row">
 		<div class="form_welcome">
-			<form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="POST">
+			<form action=<?php echo $API_URL.$form_url ?> method="POST">
 				<input type="hidden" name="action" value="send_form">
 				<div class="col-md-6 col-sm-6 col-lg-6 col-xs-6 fst_name"><input type="text" name="first_name" id="first_name" placeholder="First Name*" required></div>
 				<div class="col-md-6 col-sm-6 col-lg-6 col-xs-6 scnd_name"><input type="text" name="second_name" id="second_name" placeholder="Second Name*" required></div>
