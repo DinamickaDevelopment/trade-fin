@@ -9,8 +9,8 @@ function importScript($file){
 	echo file_get_contents($file);
 	echo "</script>";
 }
-$APP_URL = 'https://web.tradefin.com';
-$API_URL = 'https://api.tradefin.com';
+$APP_URL = getenv('host_uri');
+$API_URL = getenv('api_uri');
 
 $login_url = '/auth/sign-in';
 $register_url = '/auth/sign-up';
